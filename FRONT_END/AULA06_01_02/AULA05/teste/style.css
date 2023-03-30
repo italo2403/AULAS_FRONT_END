@@ -1,0 +1,32 @@
+body {
+    background-image: url("./banana1.jpg");
+    background-repeat: repeat-x;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: scroll;
+  }
+
+
+
+
+
+  p.um {
+    border-style: solid;
+    border-width: 5px;
+    border-color: red;
+  }
+  
+  p.dois {
+    border-style: solid;
+    border-width: medium;
+  }
+  
+  p.três {
+    border-style: dotted;
+    border-width: 2px;
+  }
+  
+  p.quatro {
+    border-style: dotted;
+    border-width: thick;
+  }

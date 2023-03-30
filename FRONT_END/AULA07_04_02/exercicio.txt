@@ -1,0 +1,29 @@
+1) Utilizando as seguintes TAGS, crie um documento
+Utilização das marcas
+<html></html>
+<head></head>
+<title></title>
+<body></body>
+<h1></h1>
+<h2></h2>
+<h3></h3>
+<h4></h4>
+<h5></h5>
+<h6></h6>
+
+2) <p></p>
+<hr>
+<br>
+
+3) <font face="'Book Antiqua','Arial Narrow'" size="3" color="GREEN"></font>
+<font face="Bookman Old Style" size="+2" color="RED"></font>
+<font face="Bookman Old Style" size="5" color="BLUE"></font>
+
+4) <table></table>
+<caption></caption>
+<tr></tr>
+<th></th>
+<td></td>
+
+5) <img></img>
+

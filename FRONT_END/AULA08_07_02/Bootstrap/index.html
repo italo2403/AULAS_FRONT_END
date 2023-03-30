@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Olá mundo</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+<!--
+<div class="container">
+  <h1>Minha primeira página de Bootstrap</h1>
+  <p>Esta parte está dentro de uma classe .container.</p>
+  <p>A classe .container fornece um contêiner responsivo de largura fixa.</p>
+</div>
+
+<div class="container pt-5">
+  <h1>Sport 7 vitórias</h1>
+  <h2>Sport 7 vitórias</h2>
+  <p>Coitado dos meus rivais.</p>
+</div>
+
+<div class="container p-5 my-5 border">
+ <h1>Sport 7 vitórias</h1>
+ <h2>Sport 7 vitórias</h2>
+  <p>Coitado dos meus rivais.</p></div>
+
+<div class="container p-5 my-5 bg-dark text-white">
+ <h1>Sport 7 vitórias</h1>
+ <h2>Sport 7 vitórias</h2>
+  <p>Coitado dos meus rivais.</p></div>
+
+<div class="container p-5 my-5 bg-primary text-white">
+ <h1>Sport 7 vitórias</h1>
+ <h2>Sport 7 vitórias</h2>
+  <p>Coitado dos meus rivais.</p></div>
+
+<div class="row">
+  <div class="col-sm-3">sm3</div>
+  <div class="col-sm-3">sm3</div>
+  <div class="col-sm-3">sm3</div>
+</div>
+
+
+<div class="row">
+  <div class="col-sm-4">.col-sm-4</div>
+  <div class="col-sm-8">.col-sm-8</div>
+</div>
+-->
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <!--<a class="navbar-brand" href="#">Navbar</a>-->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#pedido">Refeições</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contato</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Suporte</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div id="home"></div>
+<div id="carouselExample" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="1.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="4.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="3.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<div id="pedido"></div>
+<div class="espaco"></div>
+<h1 class="refeicao">Refeições</h1>
+<div class="container text-center">
+  <div class="row align-items-start">
+    <div class="col">
+      <div class="card text-bg-dark border-light" style="width: 18rem;">
+  <img src="2.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text">Peça aqui sua comida. Cardápio de exemplo para aula08 framework Bootstrap5</p>
+	<input class="btn btn-primary"onclick="Enviar()" type="submit" value="Solicitar">
+  </div>
+</div>
+    </div>
+    <div class="col">
+     <div class="card text-bg-dark border-light" style="width: 18rem;">
+  <img src="2.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text">Peça aqui sua comida. Cardápio de exemplo para aula08 framework Bootstrap5</p>
+	<input class="btn btn-primary"onclick="Enviar()" type="submit" value="Solicitar">
+  </div>
+</div>
+    </div>
+    <div class="col">
+      <div class="card text-bg-dark border-light" style="width: 18rem;">
+  <img src="2.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text">Peça aqui sua comida. Cardápio de exemplo para aula08 framework Bootstrap5</p>
+	<input class="btn btn-primary"onclick="Enviar()" type="submit" value="Solicitar">
+  </div>
+</div>
+    </div>
+  </div>
+</div>
+
+<div class="espaco"></div>
+
+<div class="container text-center">
+  <div class="row align-items-start">
+    <div class="col">
+      <div class="card text-bg-dark border-light" style="width: 18rem;">
+  <img src="2.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text">Peça aqui sua comida. Cardápio de exemplo para aula08 framework Bootstrap5</p>
+	<input class="btn btn-primary"onclick="Enviar()" type="submit" value="Solicitar">
+  </div>
+</div>
+    </div>
+    <div class="col">
+     <div class="card text-bg-dark border-light" style="width: 18rem;">
+  <img src="2.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text">Peça aqui sua comida. Cardápio de exemplo para aula08 framework Bootstrap5</p>
+	<input class="btn btn-primary"onclick="Enviar()" type="submit" value="Solicitar">
+  </div>
+</div>
+    </div>
+    <div class="col">
+      <div class="card text-bg-dark border-light" style="width: 18rem;">
+  <img src="2.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text">Peça aqui sua comida. Cardápio de exemplo para aula08 framework Bootstrap5</p>
+	<input class="btn btn-primary"onclick="Enviar()" type="submit" value="Solicitar">
+  </div>
+</div>
+    </div>
+  </div>
+</div>
+<div class="espaco"></div>
+ <footer class="bg-dark text-light">
+    <div class="container-fluid py-3">
+    <div class="row">
+      <div class="col-4">
+        <ul class="nav flex-column">
+          <li class="nav-link"><a href="#">Home</a></li>
+          <li class="nav-link"><a href="#">Sobre</a></li>
+          <li class="nav-link"><a href="#">Contato</a></li>
+          <li class="nav-link"><a href="#">Suporte</a></li>
+        </ul>
+      </div>
+      <div class="col-8">
+        <p>
+          Comida de qualidade você encontra aqui!
+        </p>
+        <ul class="nav">
+          <li class="nav-link" ><i class="fab fa-facebook fa-3x "></i></li>
+          <li class="nav-link"><i class="fab fa-instagram fa-3x"></i></li>
+          <li class="nav-link"><i class="fab fa-twitter fa-3x"></i></li>
+          <li class="nav-link"><i class="fab fa-whatsapp fa-3x"></i></li>
+        </ul>
+      </div>
+    </div>
+    </div>
+    <div class="text-center" style="background-color: #333; padding: 20px;" >
+      &copy 2023 Copyright: <a href="#">Ítalo Nunes</a>
+    </div>
+  </footer>
+<script src="script.js"></script>
+</body>
+</html>

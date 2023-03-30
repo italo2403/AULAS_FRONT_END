@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Aula05</title>
+</head>
+<body>
+<!-- Menu: Criando um Menu simples-->
+        <nav class="menu">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#quemsou">Quem Sou</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+				<li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+		
+		<!-- Home: UM texto para dizer qualquer coisa-->
+		<div id="home"></div><div class="texter">
+			<aside>O programador é o profissional que cria, 
+			desenvolve e mantém diferentes tipos de softwares em sistemas amplos 
+			ou para uso em computadores pessoais</aside>
+		</div>
+		
+		
+		<!-- Quem sou: Uma breve descrição de quem sou e o que eu faço-->
+		
+		       <h4 id="quemsou">Quem Sou</h4>
+		         <section class="quemsou">
+		            <div class="container1">
+                       <div class="item_1">
+	                      <img  src="./assets/img/perfil1.png" alt="">
+                       </div>
+						<p>Olá, sou Estudante de Desenvolvimento de Sistemas e tudo o que você <br />
+						 quiser saber sobre mim, você encontrará aqui!</p>
+						</div>
+		         </section>
+			        
+		
+		
+		
+		
+		<!-- Serviços: O que eu presto de Serviços para os meus clientes ficarem sabendo-->
+        <div class="eu">
+		<h4 id="servicos">Serviços</h4>
+		<div class="container">
+    <div class="item_1">
+	 <img  src="./assets/img/1.1.png" alt="">
+                <p>Texto exemplo</p>
+	</div>
+    <div class="item_2"> <img  src="./assets/img/1.1.png" alt="">
+                <p>Texto exemplo</p></div>
+    <div class="item_3"> <img  src="./assets/img/1.1.png" alt="">
+                <p>Texto exemplo</p></div>
+</div>
+
+		</div>
+        
+	 
+		<h4 id="contato">Contato</h4>
+		<form action="" method="POST">
+			<label for="name">Informe seu Nome</label>
+			<input type="text">
+			<label for="telefone">Informe seu Telefone</label>
+			<input type="tel">
+		    <label for="mensagem">Informe o ocorrido</label>
+			<textarea rows="4" cols="50"></textarea>
+			<input type="button" onclick="funcao1()" value="Exibir Alert" />
+		</form>
+	</section>
+
+
+
+
+<button id="back-to-top">Voltar ao topo</button>
+<script>
+var btn = document.querySelector("#back-to-top");
+btn.addEventListener("click", 
+function() {
+    window.scrollTo(0, 0);
+});
+</script>
+
+
+
+
+</body>
+</html>

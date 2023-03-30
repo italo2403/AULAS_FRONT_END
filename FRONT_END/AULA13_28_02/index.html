@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<link rel="stylesheet" href="style.css">-->
+    <title>Média dos Alunos</title>
+	<style>
+		body{
+		background-color:#1e7d6f;
+		}
+		.calculo{
+		margin-top:20px;
+		font-size: 35px;
+		cursor:pointer;
+		}
+		.container {
+		margin-top:50px;
+		font-size: 22px;
+		cursor:pointer;
+		}
+		.container, .calculo{
+		text-align:center;
+		color:#FFF;
+		cursor:pointer;
+		}
+		button{
+		cursor:pointer;
+		border-radius: 20px 40px;
+		font-size:25px;
+		color:#000
+		}
+		
+		button:hover{
+		border-radius: 40px 20px;
+		color: #1e7d6f;
+		cursor:pointer;
+		}
+		
+	</style>
+	
+	
+</head>
+<body>
+   		
+		<h2 class="calculo">Média do Aluno</h2>
+		<div class="container">
+		<label for="">Entre com sua Nota</label><br>
+		<input type="text" id="nota1"><br>
+		<label for="">Entre com sua Nota</label><br>
+		<input type="text" id="nota2"><br>
+		<label for="">Entre com sua Nota</label><br>
+		<input type="text" id="nota3"><br>
+		<span id="resultado">Sua média é:</span><br><br>
+		<button type="btn" onclick="media()">Resultado</button>	
+			</div>
+			
+	<script src="script.js"></script>
+
+	</body>
+</html>

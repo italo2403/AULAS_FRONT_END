@@ -1,0 +1,117 @@
+﻿
+/*Zerando a Margem do Meu HTML e deixando ele todo redefinido*/
+* {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+/*Inserindo uma imagem de fundo no seu site e deixando 
+ela ser ocupada toda em no site sem repetição*/
+body{
+	
+    height: 90vh;
+    width: 90vw;
+    background-image: url('../img/fundo.jpg');
+	background-size: cover;
+	
+}
+.txt{
+  position: absolute;
+  font-size: 32px;
+  left: 250px;
+  top: 135px;
+  z-index:1;
+}
+/*Trabalhando no MENU e deixando ele bem organizado ao meio da 
+tela para que seja totalmente otmizado*/
+.menu ul{
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+li{
+    list-style: none;
+    margin: 9.5px;
+    display: inline;
+    cursor: pointer;
+}
+li a{
+    padding: 5px 10px;
+    margin: 0;
+    border: 0px solid gray;
+    background:#064851 ;
+    text-decoration: none;
+    color: white;
+    border-radius: 8px;
+}
+li a:hover{
+    background: #FDC727Z;
+    color: black;
+    border-color: black;
+    cursor: pointer;
+}
+.quemsou{
+margin-top:10px;
+width:100%;
+border-radius:2px;
+margin-bottom:8px;
+column-count:2;
+align-items:left;
+}
+
+#quemsou{
+text-align: center;
+margin-top:300px;
+}
+
+/*Trabalhando com as imagens do meu site, deixando em colunas
+para que possa ser passadas quantas imagens eu quiser, para isso, basta apenas 
+mundar no column-count:3; a quantidade de imagens que eu preciso */
+img{
+margin-top:10px;
+width:100%;
+border-radius:2px;
+margin-bottom:8px;
+column-count:3;
+}
+.galeria{
+ column-count:3;
+ column-gap:10px;
+}
+
+
+/*Contato */
+#contato{
+	margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+form{
+	list-style: none;
+    margin: 9.5px;
+    display: inline;
+    cursor: pointer;
+}
+form input [type=text]{
+	 padding: 5px 10px;
+    margin: 0;
+    border: 0px solid gray;
+    background:brown ;
+    text-decoration: none;
+    color: black;
+    border-radius: 8px;
+}
+}
+/*Script do botão voltar */
+#back-to-top {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  z-index:2;
+}
+
+
+

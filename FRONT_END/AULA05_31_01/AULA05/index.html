@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Aula05</title>
+</head>
+<body>
+<!-- Menu: Criando um Menu simples-->
+        <nav class="menu">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#quemsou">Quem Sou</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+				<li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+		
+		<!-- Home: UM texto para dizer qualquer coisa-->
+		<div id="home"></div><div class="texter">
+			<aside>Lorem Ipsum é simplesmente um texto fictício da indústria tipográfica e de impressão.
+			Lorem Ipsum tem sido o texto fictício padrão da indústria desde os anos 1500, 
+			quando um impressor desconhecido pegou uma galera de tipos e os embaralhou para fazer um livro de espécimes de tipos. 
+			Ele sobreviveu não apenas a cinco séculos, mas também ao salto para a composição eletrônica,
+			permanecendo essencialmente inalterado. Foi popularizado na década de 1960 com o lançamento de folhas
+			Letraset contendo passagens de Lorem Ipsum e
+			, mais recentemente, com software de editoração eletrônica como Aldus PageMaker, incluindo versões de Lorem Ipsum</aside>
+		</div>
+		
+		
+		<!-- Quem sou: Uma breve descrição de quem sou e o que eu faço-->
+		 <div class="eu">
+		<h4 id="quemsou">Quem Sou</h4>
+		<section class="quemsou">
+		<div class="galImg">
+                <img src="./assets/img/1.1.png" alt="">
+                <p>Texto exemplo</p>
+		</div>
+		</section>
+		<!-- Serviços: O que eu presto de Serviços para os meus clientes ficarem sabendo-->
+        <div class="eu">
+		<h4 id="servicos">Serviços</h4>
+		</div>
+        <section class="galeria">
+				<div class="galImg">
+                <img  src="./assets/img/1.1.png" alt="">
+                <p>Texto exemplo</p>
+           
+           
+                <img src="./assets/img/1.2.png" alt="">
+                <p>Texto exemplo</p>
+            
+			
+                <img src="./assets/img/1.2.png" alt="">
+                <p>Texto exemplo</p>
+            </div>
+       <section>
+	 
+		<h4 id="contato">Contato</h4>
+		<form action="" method="POST">
+			<label for="name">Informe seu Nome</label>
+			<input type="text">
+			<label for="telefone">Informe seu Telefone</label>
+			<input type="tel">
+		    <label for="mensagem">Informe o ocorrido</label>
+			<textarea rows="4" cols="50"></textarea>
+		</form>
+</section>
+
+
+<button id="back-to-top">Voltar ao topo</button>
+<script>
+var btn = document.querySelector("#back-to-top");
+btn.addEventListener("click", 
+function() {
+    window.scrollTo(0, 0);
+});
+</script>
+
+
+
+
+</body>
+</html>

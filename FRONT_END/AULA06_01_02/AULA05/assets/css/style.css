@@ -1,0 +1,178 @@
+
+/*Zerando a Margem do Meu HTML e deixando ele todo redefinido*/
+* {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+/*Inserindo uma imagem de fundo no seu site e deixando 
+ela ser ocupada toda em no site sem repetição*/
+body{
+	
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to right, rgba(12,190,155,0.5), rgba(26,206,108,1));
+	background-size: cover;
+	
+}
+.txt{
+  position: absolute;
+  font-size: 32px;
+  left: 250px;
+  top: 135px;
+  z-index:1;
+}
+/*Trabalhando no MENU e deixando ele bem organizado ao meio da 
+tela para que seja totalmente otmizado*/
+
+.menu{
+	border-style:solid;
+	border-width:5px 2px 3px 9px;
+	border-radius:5px 2px 3px 9px;
+}
+.menu ul{
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+li{
+    list-style: none;
+    margin: 9.5px;
+    display: inline;
+    cursor: pointer;
+}
+li a{
+    padding: 5px 10px;
+    margin: 0;
+    border: 0px solid gray;
+    background:#064851 ;
+    text-decoration: none;
+    color: white;
+    border-radius: 8px;
+}
+li a:hover{
+    background: #FDC727Z;
+    color: white;
+    border-color: black;
+    cursor: pointer;
+}
+
+/* Quem sou!*/
+#quemsou, #servicos, #contato{
+text-align: center;
+margin-top:30px;
+font-size: 2.0rem;
+font-family: sans-serif;
+cursor: pointer;
+color: black;
+border-style:solid;
+border-radius:5px 2px 3px 9px;
+}
+
+
+aside{
+	font-family:arial;
+	font-size:2.5em;
+	text-align:justify;
+	margin: 50px auto;
+	margin-left:20px;
+	margin-right:20px;
+	color:white;
+	cursor:pointer;
+	
+}
+
+ .texter aside:hover{
+    background: #FDC727Z;
+    color: black;
+    border-color: black;
+    cursor: pointer;
+}
+#servicos{
+text-align: center;
+margin-top:30px;	
+}
+
+/*Trabalhando com as imagens do meu site, deixando em colunas
+para que possa ser passadas quantas imagens eu quiser, para isso, basta apenas 
+mundar no column-count:3; a quantidade de imagens que eu preciso */
+img{
+
+
+}
+
+
+
+/*Contato */
+#contato{
+	margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+form{
+	 
+	  display: flex;
+     justify-content: center;
+	}
+
+
+/*Script do botão voltar */
+#back-to-top {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  z-index:2;
+}
+
+.container {
+    display: flex; /* ou inline-flex */
+    background-color: transparent;
+    margin: 50px auto;
+    max-width: 900px;
+    font-family: sans-serif;
+}
+.container div {
+    background: #028082;     
+    margin: 8px 8px;
+    font-size: 1em;
+    color: #fff;
+}
+.container1 {
+	flex-wrap: nowrap;
+    display: inline-flex;
+    background-color: transparent;
+    margin: 50px auto;
+	max-width: 900px;
+    font-family: sans-serif;
+	margin-left:250px;
+}
+img{
+	width: 250px;
+    margin: 15px;
+	max-width: 100%;
+}
+img:hover {
+  -webkit-transform:scale(2.5);
+  transform:scale(2.5);
+  cursor:pointer;
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+}
+.container1 img{
+	margin-top:-300px;
+	width:100%;
+}
+.container1 div {
+	font-size: 1em;
+    color: #fff;
+	margin-top:150px;
+}
+p{
+	margin-left: 5.5rem;
+	color:white;
+	font-family:sans-serif;
+	font-size:23px;
+}

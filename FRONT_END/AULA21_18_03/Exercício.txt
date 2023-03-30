@@ -1,0 +1,7 @@
+1) João precisa criar uma calculadora de Juros diário de investimento. 
+Sabendo que Pedro fez um investimento inicial de R$ 1.520,00 e a taxa de juros mensal é 4.5%, qual será o valor diário de lucro de João?
+
+2) Paulo, André, Fernando e José possuem cada um uma camisa: 
+Azul, Preta, Verde e Vermelha. Sabendo que a ordem das camisas é a mesma ordem dos donos, usando uma estrutura que diga a cada um qual a sua camisa, como podemos executar este código?
+
+3) 
